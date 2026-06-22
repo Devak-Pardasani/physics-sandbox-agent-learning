@@ -1,0 +1,38 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+ENV/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated project data
+data/episodes/**
+!data/episodes/.gitkeep
+artifacts/**
+!artifacts/.gitkeep
+exports/**
+!exports/.gitkeep
+
+# Model checkpoints and large binary artifacts
+*.pt
+*.pth
+*.onnx
+
+# Legacy export location
+exports/*.json
