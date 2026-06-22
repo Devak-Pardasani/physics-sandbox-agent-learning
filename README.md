@@ -109,16 +109,3 @@ evaluation/              Model evaluation routine
 ui/                      Pygame replay renderer and input handling
 tests/                   Unit and smoke tests
 ```
-
-## Publishing
-
-If this folder is not already a Git repository:
-
-```bash
-git init -b main
-git add .
-git commit -m "Initial commit"
-```
-
-Add a license before publishing if you want other people to reuse, modify, or
-contribute to the project.
