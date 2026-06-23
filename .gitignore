@@ -14,7 +14,6 @@ dist/
 # Local environments
 .venv/
 venv/
-ENV/
 
 # Editor and OS files
 .DS_Store
